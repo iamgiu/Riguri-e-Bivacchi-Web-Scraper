@@ -841,7 +841,7 @@ def main():
             print(f"\n💾 SALVATAGGIO FILES...")
             
             # Salva JSON (formato principale)
-            json_filename = "C:/Users/righi/Desktop/Progetti/Web Scraper/Rifugi_bivacchi.json"
+            json_filename = "Rifugi_bivacchi.json"
             scraper.save_to_json(json_filename)
             
             print(f"\n✅ SUCCESS! Files creati:")
